@@ -1,0 +1,66 @@
+
+body {
+  padding-top: 56px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.logo{
+  height: 50px;
+}
+.col-lg-3 video{
+  padding-top: 10%;
+  object-fit: fill;
+  width: 100%;
+  height: 70%;
+}
+
+.car-img{
+  height: 550px;
+  width: 100%;
+
+}
+
+
+.cl-img{
+  height: 300px;
+}
+
+
+.cl-img {
+  transition: transform .2s; /* Animation */
+}
+
+.cl-img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+li span {
+  position: relative;
+  left: 10px;
+}
+.foorow{
+  padding-left: 20%;
+}
+.vid{
+  object-fit: fill;
+}
+#myVideo{
+  object-fit: fill;
+}
+.car-cap{
+  padding-bottom: 25%;
+
+}
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
+}
